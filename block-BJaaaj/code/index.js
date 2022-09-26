@@ -6,8 +6,11 @@ let lastName = "Stark";
 // Do the following:
 
 // Alert the value of the firstName.
+alert(firstName);
 // Alert the value of the lastName.
+alert(lastName);
 // Assign a new value of `"John"` to firstName.
+firstName="john";   
 // Assign a new value of `"Snow"` to lastName.
 // Alert the new value of `firstName` and `lastName` by concatenating them
 // Create a new varaible using `const` named `fullName` and assign the fullname using firstName and lastName seperated by space.
