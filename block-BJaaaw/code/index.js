@@ -6,8 +6,13 @@
   - `if` the number is even print the message " number is even"
   - `if` the number is odd print the message "number is odd"
 */
+let number = prompt("enter a num");
+if( (${number} % 2) = 0 ) 
+{
+  alert("even");
+}
 
-// 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
+// 2. Write  a program to accept two numbers from user using`prompt` and alert the max value.
 
 // 3. Convert the above code using`?` terniary operator
 
