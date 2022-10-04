@@ -34,12 +34,26 @@ n = 7 => output: heeeeeeello
 👇
 */
 // [Your code goes here]
+let start = "h";
+let end = "llo";
+let middle = "";
+let count = +prompt("enter count");
+for( i = 0; i< count; i++){
+  middle += "e";
+}
+alert(start + middle + end);
 
 /*
 Program to calculate the sum of first n natural numbers(1,2,3...n are known as natural numbers). Prompt user to enter n (using `prompt`) then based on input provided calculate and show result in `alert`.
 👇
 */
 // [Your code goes here]
+let number = +prompt("enter number");
+sum = 0;
+for(i=1; i <= number; i++){
+sum = sum + i;
+}
+alert(sum);
 
 /* Switch Statement
 
@@ -60,6 +74,25 @@ Take a number value from user and alert the message if it matches the conditions
 */
 // [Your code goes here]
 
+let value = +prompt("enter a value");
+switch(value){
+  case 1:
+    alert("one");
+    break;
+    case 2:
+    alert("two");
+    break;
+    case 3:
+    alert("three");
+    break;
+    case 4:
+    alert("four");
+    break;
+    default:
+      alert("please try");
+}
+
+
 /*
 🎖Using switch statement do the following
 
@@ -75,12 +108,31 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
 */
 
 // [Your code goes here]
+let marks = +prompt("enter ur marks");
+switch(true){
+  case marks > 90:
+    alert(`AA`);
+    break;
+    case marks > 80:
+      alert(`bb`);
+      break;
+      case marks >70:
+    alert(`cc`);
+    break;
+}
 
 /*
  🎖Write a JavaScript program that takes two `integers` from user (using prompt) and alerts the larger number.
 */
 // [your code goes here]
-
+let num1 = +prompt("enter num1");
+let num2 = +prompt("enter num2");
+if(num1>num2){
+  alert("num1 is greater");
+}
+else{
+  alert("num2 is greater");
+}
 /*
 🎖Write a JavaScript conditional statement to find the sign (+, -) of product of three numbers. Take those three numbers from user using `prompt`. Display an alert box with the specified sign.
 */
@@ -99,3 +151,10 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
 */
 
 // [Your code goes here]
+let nm1 = +prompt("enter num1");
+let nm2 = +prompt("enter num2");
+
+let operation = prompt("add , sub , mul , div");
+switch(operation){
+  case "add":
+}
